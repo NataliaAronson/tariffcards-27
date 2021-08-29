@@ -1,0 +1,19 @@
+.card{
+    width: 25%;
+    height: 200px;
+  }
+  .card-name{
+
+  }
+  .card-price{
+    font-size: large;
+  
+  }
+  .card-text{
+      font-size: smaller;
+
+  }
+  .selected{
+      border: 2px brown
+      height: 300px;
+  }

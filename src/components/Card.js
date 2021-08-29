@@ -1,10 +1,12 @@
 
 import React from 'react';
+import './Cardstyle.css';
+
 class Card extends React.Component {
 	render() {
-const { name, price, speed, text } = this.props;
+const { name, price, speed, text, isSelected } = this.props;
 		return (
-            <div className="card">
+            <div className={"card"+(isSelected?"selected":"")}>
             <div className="card-header">
             <h2 className="card-name">{name}</h2>
             </div>

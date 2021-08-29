@@ -1,30 +1,7 @@
 .App {
-  text-align: center;
-  
-}
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-   width: 25%;
-}
-.card-header{
-height: 20px;
-align-items: center;
-}
-.card-name{
-font-weight: bold;   
-}
-.card-price{
-height: 60px;
-
-}
-.card-speed{
-height: 20px;
-}
-.card-footer{
-height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
