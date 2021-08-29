@@ -1,12 +1,12 @@
 
 import React from 'react' 
  import Card from '.components/Card';
- import Cardstyle from '.components/Cardstyle';
+ import Cardstyle from '.tariffcards/components/Cardstyle.css';
  class CardList extends React.Component { 
 render() {
  return (
  <React.Fragment>
- <Card style={{color: #61dafb;}}
+ <Card style={{backgroundColor:#61dafb}}
 name="Безлимитный 300" 
 price={300}
 speed={10}
