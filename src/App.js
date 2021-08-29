@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from 'react' 
+ import Card from '.components/Card';
+ import Cardstyle from '.components/Cardstyle';
+ class CardList extends React.Component { 
+render() {
+ return (
+ <React.Fragment>
+ <Card style={{color: #61dafb;}}
+name="Безлимитный 300" 
+price={300}
+speed={10}
+text="Обьем включённого трафика не ограничен" 
+ />
+ <Card style={{}}
+name="Безлимитный 450" 
+price={450}
+speed={50}
+text="Обьем включённого трафика не ограничен" 
+ />
+  <Card style={{}}
+name="Безлимитный 500" 
+price={550}
+speed={100}
+text="Обьем включённого трафика не ограничен" 
+ />
+  <Card style={{}}
+name="Безлимитный 1000" 
+price={1000}
+speed={200}
+text="Обьем включённого трафика не ограничен" 
+ />
 
-export default App;
+ </React.Fragment>
+ );
+ } 
+} 
+export default CardList;
