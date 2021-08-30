@@ -10,7 +10,7 @@
     width: 25%;
     height: 200px;
   }
-  .selected{
+.selected{
     border: 2px brown;
     height: 300px;
 }
