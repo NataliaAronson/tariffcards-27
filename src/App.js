@@ -3,10 +3,10 @@ import React from 'react';
 import './App.css';
 import Card from './components/Card';
 
-const adblue={bacgroundColor:'blue'};
-const adgreen={bacgroundColor:'green'};
-const adred={bacgroundColor:'red'};
-const adblack={bacgroundColor:'black'};
+const adblue={backgroundColor:'blue'};
+const adgreen={backgroundColor:'green'};
+const adred={backgroundColor:'red'};
+const adblack={backgroundColor:'black'};
 class CardList extends React.Component {
   render() {
       return (
