@@ -11,6 +11,7 @@ class CardList extends React.Component {
   render() {
       return (
         <React.Fragment>
+        <div className ="tariffwrapper">
 
  <Card 
 name="Безлимитный 300" style={adblue}
@@ -37,7 +38,7 @@ price={1000}style={adblack}
 speed={200}
 text="Обьем включённого трафика не ограничен" 
  />
-
+ </div>
  </React.Fragment>
  );
  } 
