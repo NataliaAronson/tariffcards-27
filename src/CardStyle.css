@@ -1,7 +1,4 @@
-.card{
-    width: 25%;
-    height: 200px;
-  }
+
   .card-name{
 
   }
@@ -13,7 +10,4 @@
       font-size: smaller;
 
   }
-  .selected{
-      border: 2px brown
-      height: 300px;
-  }
+ 
