@@ -4,10 +4,7 @@ import './App.css';
 import Card from './components/Card';
 import ClickableDiv from 'react-clickable-div'
 
-const adblue={backgroundColor:'blue'};
-const adgreen={backgroundColor:'green'};
-const adred={backgroundColor:'red'};
-const adblack={backgroundColor:'black'};
+
 class CardList extends React.Component {
   render() {
       return (
@@ -15,27 +12,27 @@ class CardList extends React.Component {
         <div className ="tariffwrapper">
 
  <Card 
-name="Безлимитный 300" style={adblue}
-price={300} style ={adblue}
+name="Безлимитный 300" 
+price={300} 
 speed={10}
 text="Обьем включённого трафика не ограничен" 
  />
  <Card
-name="Безлимитный 450" style={adgreen}
-price={450} style={adgreen}
+name="Безлимитный 450"
+price={450} 
 speed={50}
 text="Обьем включённого трафика не ограничен" 
  />
   <Card 
 
-name="Безлимитный 500" style={adred}
-price={550}style={adred}
+name="Безлимитный 500" 
+price={550}
 speed={100}
 text="Обьем включённого трафика не ограничен" 
  />
   <Card 
-name="Безлимитный 1000" style={adblack}
-price={1000}style={adblack}
+name="Безлимитный 1000" 
+price={1000}
 speed={200}
 text="Обьем включённого трафика не ограничен" 
  />

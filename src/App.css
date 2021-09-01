@@ -15,9 +15,11 @@
   
 .card-price{
   font-size: large;
-
+  border: 2px black;
+}
 }
 .card-text{
     font-size: smaller;
-
+    border: 2px black;
+  }
 }
