@@ -5,12 +5,19 @@
     justify-content: center;
     margin: 0 auto;
   max-width: 1000px;
+  border: 2px black;
 }
 .card{
     width: 25%;
-    height: 200px;
+    height: 600px;
+    border: 2px black;
   }
-.selected{
-    border: 2px brown;
-    height: 300px;
+  
+.card-price{
+  font-size: large;
+
+}
+.card-text{
+    font-size: smaller;
+
 }
