@@ -11,26 +11,25 @@ class CardList extends React.Component {
         <React.Fragment>
         <div className ="tariffwrapper">
 
- <Card 
+ <Card className = "first"
 name="Безлимитный 300" 
 price={300} 
 speed={10}
-text="Обьем включённого трафика не ограничен" 
+text="Обьем включённого трафика не ограничен"
  />
- <Card
+ <Card className = "second"
 name="Безлимитный 450"
 price={450} 
 speed={50}
 text="Обьем включённого трафика не ограничен" 
  />
-  <Card 
-
-name="Безлимитный 500" 
+  <Card className = "third"
+name="Безлимитный 550" 
 price={550}
 speed={100}
 text="Обьем включённого трафика не ограничен" 
  />
-  <Card 
+  <Card className = "fourth"
 name="Безлимитный 1000" 
 price={1000}
 speed={200}

@@ -7,23 +7,28 @@
         align-items: center;
         padding: 20px;
          width: 25%;
+         border: 2px black;
       
       
 }
 .card-header{
 height: 20px;
 align-items: center;
+border: 2px black;
 }
 .card-name{
- font-weight: bold;   
+ font-weight: bold;
+ border: 2px black;
 }
 .card-price{
 height: 60px;
-
+border: 2px black;
 }
 .card-speed{
 height: 20px;
+border: 2px black;
 }
 .card-footer{
 height: 40px;
+border: 2px black;
 }

@@ -4,8 +4,8 @@
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
-  max-width: 1000px;
-  border: 2px black;
+  max-width: 1200px;
+  border-color: black;
 }
 .card{
     width: 25%;
@@ -17,9 +17,22 @@
   font-size: large;
   border: 2px black;
 }
-}
+
 .card-text{
     font-size: smaller;
     border: 2px black;
   }
+
+.first{
+background-color: blue;
 }
+.second{
+background-color: green;
+}
+.third{
+background-color: red;
+  }
+.fourth{
+background-color: grey;
+    }
+
