@@ -4,7 +4,7 @@ import './Cardstyle.css';
 
 class Card extends React.Component {
 	render() {
-const { name, price, speed, text} = this.props;
+const { name, price, speed, text, style} = this.props;
 		return (
             <div className="card">
             <div className="card-header">

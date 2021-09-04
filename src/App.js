@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Card from './components/Card';
 import ClickableDiv from 'react-clickable-div'
+const style = {backgroundColor : #A9CCE3,backgroundColor : #45B39D, backgroundColor : #E74C3C, backgroundColor : #707B7C}
 
 
 class CardList extends React.Component {
@@ -11,7 +12,7 @@ class CardList extends React.Component {
         <React.Fragment>
         <div className ="tariffwrapper">
         <div onClick={() => {alert("you have chosen this tariff")}}>
- <Card className = "first"
+ <Card style={{backgroundColor : #A9CCE3}}
 hoverable
 name="Безлимитный 300" 
 price={300} 
@@ -21,7 +22,7 @@ text="Обьем включённого трафика не ограничен"
   </div>
 
   <div onClick={() => {alert("you have chosen this tariff")}}> 
- <Card className = "second"
+ <Card style={{ backgroundColor : #45B39D}}
  hoverable
 name="Безлимитный 450"
 price={450} 
@@ -31,7 +32,7 @@ text="Обьем включённого трафика не ограничен"
  </div>
 
  <div onClick={() => {alert("you have chosen this tariff")}}>
-  <Card className = "third"
+  <Card style={{backgroundColor : #E74C3C}}
    hoverable
 name="Безлимитный 550" 
 price={550}
@@ -42,7 +43,7 @@ text="Обьем включённого трафика не ограничен"
 
  <div onClick={() => {alert("you have chosen this tariff")}}>
  
-  <Card className = "fourth"
+  <Card style={{backgroundColor : #707B7C}}
    hoverable
 name="Безлимитный 1000" 
 price={1000}
